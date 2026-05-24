@@ -12,7 +12,9 @@
             <c-protfolio-personal-projects></c-protfolio-personal-projects>
         </lightning-tab>
         <lightning-tab label="Work Experience">
-            Three Content !
+            <template if:true={recordId}>
+                <c-portfolio-work-experience record-id={recordId}></c-portfolio-work-experience>
+            </template>
         </lightning-tab>
         <lightning-tab label="Skills">
             Three Content !
