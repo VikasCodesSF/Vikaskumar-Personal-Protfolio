@@ -10,7 +10,7 @@
         <targetConfig targets="lightningCommunity__Default">
             <property name="recordId" label='Record Id' type="String" />
             <property name="objectApiName" label='Object API Name' type="String" />
-            <property name="rank" label='Rank' type="String" datasource="Scout,Hiker,Explorer,Adventurer,Mountaineer,Expeditioner,Ranger,Double Star Ranger,Triple Star Ranger,Four star ranger,Five Star Ranger,All Star Ranger" />
+            <property name="rank" label='Rank' type="String" datasource="Scout,Hiker,Explorer,Adventurer,Mountaineer,Expeditioner,Ranger,Double Star Ranger,Triple star ranger,Four star ranger,Five Star Ranger,All Star Ranger" />
             <property name="points" label='Points' type="String" />
             <property name="badges" label='Badges' type="String" />
             <property name="trails" label='Trails' type="String" />
