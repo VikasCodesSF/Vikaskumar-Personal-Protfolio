@@ -17,7 +17,9 @@
             </template>
         </lightning-tab>
         <lightning-tab label="Skills">
-            Three Content !
+            <template if:true={recordId}>
+                <c-portfolio-skills record-id={recordId}></c-portfolio-skills>
+            </template>
         </lightning-tab>
         <lightning-tab label="Education">
             Three Content !
