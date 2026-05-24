@@ -9,5 +9,5 @@ h2{
 /* Namspace + scoper + Component + Category + Property */
 .slds-badge{
     --slds-c-badge-color-background:#f6c403;
-    --slds-c-badge-text-color:#000;
+    --slds-c-badge-text-color:#000; 
 }
