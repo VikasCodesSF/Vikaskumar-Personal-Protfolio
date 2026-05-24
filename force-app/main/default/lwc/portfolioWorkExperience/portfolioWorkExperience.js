@@ -1,5 +1,5 @@
 import { LightningElement, wire, api } from 'lwc';
-import { getRelatedListRecords } from 'lightning/uiRelatedListApi';
+import { getRelatedListRecords } from 'lightning/uiRelatedListApi'; 
 
 export default class PortfolioWorkExperience extends LightningElement {
    
