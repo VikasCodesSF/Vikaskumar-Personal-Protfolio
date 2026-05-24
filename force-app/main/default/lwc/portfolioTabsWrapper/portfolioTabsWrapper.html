@@ -1,0 +1,28 @@
+<template>
+    <div>
+        <lightning-tabset variant="scoped">
+        <lightning-tab label="Summary">
+            <template if:true={recordId}>
+                <c-portfolio-summary record-id={recordId} 
+                    object-api-name={objectApiName}>
+                </c-portfolio-summary>
+            </template>
+        </lightning-tab>
+        <lightning-tab label="Personal Projects">
+            Personal Projects will be added soon. Stay Tuned!
+        </lightning-tab>
+        <lightning-tab label="Work Experience">
+            Three Content !
+        </lightning-tab>
+        <lightning-tab label="Skills">
+            Three Content !
+        </lightning-tab>
+        <lightning-tab label="Education">
+            Three Content !
+        </lightning-tab>
+        <lightning-tab label="Certifications">
+            Three Content !
+        </lightning-tab>
+    </lightning-tabset>
+    </div>
+</template>
