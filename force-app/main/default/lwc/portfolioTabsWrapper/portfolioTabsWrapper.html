@@ -27,7 +27,9 @@
             </template>
         </lightning-tab>
         <lightning-tab label="Certifications">
-            Three Content !
+            <template if:true={recordId}>
+                <c-portfolio-certifications record-id={recordId}></c-portfolio-certifications>
+            </template>
         </lightning-tab>
     </lightning-tabset>
     </div>

@@ -10,7 +10,7 @@ const FIELDS = [
     TECHNICAL_SKILLS_FIELD,
     SOFT_SKILLS_FIELD,
     SOFTWARE_TOOLS_FIELD,
-    SOFTWARE_DEV_METHODOLOGIES_FIELD
+    SOFTWARE_DEV_METHODOLOGIES_FIELD 
 ];
 
 export default class PortfolioSkills extends LightningElement {

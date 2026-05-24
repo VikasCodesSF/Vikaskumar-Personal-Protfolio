@@ -1,0 +1,27 @@
+<template>
+<lightning-layout multiple-rows>
+        <template for:each={salesforceCerts} for:item="cert">
+            <lightning-layout-item size="12" small-device-size="6" medium-device-size="4"
+            large-device-size="3" padding="around-small" key={cert}>
+                <div class="cert-box">
+                    <img src={certLogo} alt="cert">
+                    <span>{cert}</span>
+                </div>
+            </lightning-layout-item>
+        </template>
+    </lightning-layout>
+
+    <h2 class="slds-m-bottom_medium">Other Certification</h2>
+    <lightning-layout multiple-rows>
+        <template for:each={otherSkills} for:item="other">
+            <lightning-layout-item size="12" small-device-size="6" medium-device-size="4"
+            large-device-size="3" padding="around-small" key={cert}>
+                <div class="cert-box">
+                    <lightning-icon size="large" title="classic_interface"
+                    alternative-text="classic_interface" icon-name="utility:classic_interface"></lightning-icon>
+                    <span class="slds-m-left_medium">{other}</span>
+                </div>
+            </lightning-layout-item>
+        </template>
+    </lightning-layout> 
+</template>
